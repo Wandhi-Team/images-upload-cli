@@ -50,6 +50,7 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 cover/
+.benchmarks/
 
 # Translations
 *.mo
@@ -152,6 +153,9 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
+# ruff
+.ruff_cache/
+
 # vscode
 .vscode/*
 !.vscode/settings.json
@@ -159,6 +163,3 @@ cython_debug/
 !.vscode/launch.json
 !.vscode/extensions.json
 !.vscode/*.code-snippets
-
-# Local history for vscode
-.history/
